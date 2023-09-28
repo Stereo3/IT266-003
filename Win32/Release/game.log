@@ -1,29 +1,8 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (../Win32/Release\) contains files shared from another project (idLib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Weapon.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(207): warning C4458: declaration of 'name' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(124): note: see declaration of 'idEntity::name'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2329): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2505): warning C4458: declaration of 'spread' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.h(336): note: see declaration of 'rvWeapon::spread'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2506): warning C4458: declaration of 'muzzleOrigin' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.h(328): note: see declaration of 'rvWeapon::muzzleOrigin'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2507): warning C4458: declaration of 'muzzleAxis' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.h(329): note: see declaration of 'rvWeapon::muzzleAxis'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2612): warning C4458: declaration of 'muzzleOrigin' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.h(328): note: see declaration of 'rvWeapon::muzzleOrigin'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2612): warning C4458: declaration of 'muzzleAxis' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.h(329): note: see declaration of 'rvWeapon::muzzleAxis'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2612): warning C4458: declaration of 'spread' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.h(336): note: see declaration of 'rvWeapon::spread'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2641): warning C4456: declaration of 'dir' hides previous local declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2617): note: see declaration of 'dir'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2740): warning C4458: declaration of 'muzzleOrigin' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.h(328): note: see declaration of 'rvWeapon::muzzleOrigin'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2740): warning C4458: declaration of 'muzzleAxis' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.h(329): note: see declaration of 'rvWeapon::muzzleAxis'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.cpp(2740): warning C4458: declaration of 'spread' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon.h(336): note: see declaration of 'rvWeapon::spread'
+  WeaponBlaster.cpp
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon\weaponblaster.cpp(434): warning C4305: 'argument': truncation from 'double' to 'float'
+  WeaponShotgun.cpp
+  Generating Code...
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\rlohi\Documents\IT266\IT266-003\Game-Mod-Q4\../Win32/Release\Game.dll) does not match the Linker's OutputFile property value (C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\Gamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(Game) does not match the Linker's OutputFile property value (Gamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
      Creating library ../Win32/Release\Gamex86.lib and object ../Win32/Release\Gamex86.exp
