@@ -21,6 +21,16 @@ public:
 
 protected:
 	int						hitscans;
+	idPlayer				*player = gameLocal.GetLocalPlayer();
+	float					damage = 0.1;
+	float					damageUpgrade;
+	int						fireRateUpgrade;
+	float					spreadUpgrade;
+	int						projCountUpgrade;
+	float					damageAfterUpgrade;
+	int						fireRateAfterUpgrade;
+	float					spreadAfterupgrade;
+	int						projCountAfterUpgrade;
 
 private:
 
@@ -49,6 +59,7 @@ rvWeaponShotgun::Spawn
 */
 void rvWeaponShotgun::Spawn( void ) {
 	hitscans   = spawnArgs.GetFloat( "hitscans" );
+	damage = 0.1;
 	
 	SetState( "Raise", 0 );	
 }
@@ -68,6 +79,7 @@ rvWeaponShotgun::Restore
 */
 void rvWeaponShotgun::Restore( idRestoreGame *savefile ) {
 	hitscans   = spawnArgs.GetFloat( "hitscans" );
+	damage = 0.1;
 }
 
 /*
@@ -163,8 +175,16 @@ stateResult_t rvWeaponShotgun::State_Fire( const stateParms_t& parms ) {
 	};	
 	switch ( parms.stage ) {
 		case STAGE_INIT:
-			nextAttackTime = gameLocal.time + (fireRate * owner->PowerUpModifier ( PMOD_FIRERATE ));
-			Attack( false, hitscans, spread, 0, 1.0f );
+			damageUpgrade = player->inventory.SHOTGUN_UPGRADE_DAMAGE;
+			damageAfterUpgrade = ((damage)+ damageUpgrade);
+			fireRateUpgrade = player->inventory.SHOTGUN_UPGRADE_FIRE_RATE;
+			fireRateAfterUpgrade = ((500) - fireRateUpgrade);
+			spreadUpgrade = player->inventory.SHOTGUN_UPGRADE_SPREAD;
+			spreadAfterupgrade = ((spread)-spreadUpgrade);
+			projCountUpgrade = player->inventory.SHOTGUN_UPGRADE_PROJ_COUNT;
+			projCountAfterUpgrade = ((hitscans)+projCountUpgrade);
+			nextAttackTime = gameLocal.time + (fireRateAfterUpgrade);
+			Attack( false, projCountAfterUpgrade, spreadAfterupgrade, 0, damageAfterUpgrade );
 			PlayAnim( ANIMCHANNEL_ALL, "fire", 0 );	
 			return SRESULT_STAGE( STAGE_WAIT );
 	

@@ -28,6 +28,17 @@ protected:
 	void					SpinUp				( void );
 	void					SpinDown			( void );
 
+	idPlayer				*player = gameLocal.GetLocalPlayer();
+	float					damage = 0.1;
+	float					damageUpgrade;
+	int						fireRateUpgrade;
+	float					spreadUpgrade;
+	int						projCountUpgrade;
+	float					damageAfterUpgrade;
+	int						fireRateAfterUpgrade;
+	float					spreadAfterupgrade;
+	int						projCountAfterUpgrade;
+
 private:
 
 	stateResult_t		State_Idle		( const stateParms_t& parms );
@@ -227,9 +238,18 @@ stateResult_t rvWeaponHyperblaster::State_Fire ( const stateParms_t& parms ) {
 	};	
 	switch ( parms.stage ) {
 		case STAGE_INIT:
+			damageUpgrade = player->inventory.HYPERBLASTER_UPGRADE_DAMAGE;
+			damageAfterUpgrade = ((damage)+damageUpgrade);
+			fireRateUpgrade = player->inventory.HYPERBLASTER_UPGRADE_FIRE_RATE;
+			fireRateAfterUpgrade = ((750) - fireRateUpgrade);
+			spreadUpgrade = player->inventory.HYPERBLASTER_UPGRADE_SPREAD;
+			spreadAfterupgrade = ((spread)-spreadUpgrade);
+			projCountUpgrade = player->inventory.HYPERBLASTER_UPGRADE_PROJ_COUNT;
+			projCountAfterUpgrade = ((3)+projCountUpgrade);
+			nextAttackTime = gameLocal.time + (fireRateAfterUpgrade);
 			SpinUp ( );
-			nextAttackTime = gameLocal.time + (fireRate * owner->PowerUpModifier ( PMOD_FIRERATE ));
-			Attack ( false, 1, spread, 0, 1.0f );
+			nextAttackTime = gameLocal.time + (fireRateAfterUpgrade);
+			Attack ( false, projCountAfterUpgrade, spreadAfterupgrade, 0, damageAfterUpgrade );
 			if ( ClipSize() ) {
 				viewModel->SetShaderParm ( HYPERBLASTER_SPARM_BATTERY, (float)AmmoInClip()/ClipSize() );
 			} else {

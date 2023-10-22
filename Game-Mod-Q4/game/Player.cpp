@@ -14118,8 +14118,108 @@ int idPlayer::CanSelectWeapon(const char* weaponName)
 
 int idPlayer::rollForReward(void) {
 	int randNumber;
-	randNumber = gameLocal.random.RandomInt(11);
+	randNumber = gameLocal.random.RandomInt(13);
+	gameLocal.Printf("Number Rolled: %i \n",randNumber);
 	return randNumber;
+}
+
+void idPlayer::shotgunUpgradeRoll() {
+	int randNumber;
+	randNumber = gameLocal.random.RandomInt(4);
+
+	switch (randNumber) {
+	case 0:
+		inventory.SHOTGUN_UPGRADE_DAMAGE += .01f;
+		break;
+	case 1:
+		if (inventory.SHOTGUN_UPGRADE_SPREAD < 10) {
+			inventory.SHOTGUN_UPGRADE_SPREAD += 0.4;
+			break;
+		}
+		else {
+			break;
+		}
+	case 2:
+		if (inventory.SHOTGUN_UPGRADE_FIRE_RATE < 500) {
+			inventory.SHOTGUN_UPGRADE_FIRE_RATE += 25;
+			break;
+		}
+		else {
+			break;
+		}
+	case 3:
+		inventory.SHOTGUN_UPGRADE_PROJ_COUNT += 1;
+		break;
+	default:
+		break;
+	}
+
+}
+
+void idPlayer::hyperblasterUpgradeRoll() {
+	int randNumber;
+	randNumber = gameLocal.random.RandomInt(4);
+
+	switch (randNumber) {
+	case 0:
+		inventory.HYPERBLASTER_UPGRADE_DAMAGE += .01f;
+		break;
+	case 1:
+		if (inventory.HYPERBLASTER_UPGRADE_SPREAD < 2.5) {
+			inventory.HYPERBLASTER_UPGRADE_SPREAD += 0.5;
+			break;
+		}
+		else {
+			break;
+		}
+	case 2:
+		if (inventory.HYPERBLASTER_UPGRADE_FIRE_RATE < 750) {
+			inventory.HYPERBLASTER_UPGRADE_FIRE_RATE += 25;
+			break;
+		}
+		else {
+			break;
+		}
+	case 3:
+		inventory.HYPERBLASTER_UPGRADE_PROJ_COUNT += 1;
+		break;
+	default:
+		break;
+	}
+
+}
+
+void idPlayer::grenadelauncherUpgradeRoll() {
+	int randNumber;
+	randNumber = gameLocal.random.RandomInt(4);
+
+	switch (randNumber) {
+	case 0:
+		inventory.GL_UPGRADE_DAMAGE += .1f;
+		break;
+	case 1:
+		if (inventory.GL_UPGRADE_SPREAD < 10) {
+			inventory.GL_UPGRADE_SPREAD += 0.4;
+			break;
+		}
+		else {
+			break;
+		}
+	case 2:
+		if (inventory.GL_UPGRADE_FIRE_RATE < 500) {
+			inventory.GL_UPGRADE_FIRE_RATE += 25;
+			break;
+		}
+		else {
+			break;
+		}
+	case 3:
+		inventory.GL_UPGRADE_PROJ_COUNT += 1;
+		break;
+	default:
+		break;
+	}
+
 }
 
 void idPlayer::rewardDistributor(int numberRolled) {
@@ -14225,10 +14325,13 @@ void idPlayer::rewardDistributor(int numberRolled) {
 				break;
 			}
 		case 9:
+			shotgunUpgradeRoll();
 			break;
 		case 10:
+			hyperblasterUpgradeRoll();
 			break;
 		case 11:
+			grenadelauncherUpgradeRoll();
 			break;
 		case 12:
 			break;

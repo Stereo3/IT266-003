@@ -58,9 +58,11 @@ c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(13033): war
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
 c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(13056): warning C4458: declaration of 'types' hides class member
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\gamesys\class.h(409): note: see declaration of 'idClass::types'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14126): warning C4101: 'value': unreferenced local variable
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14127): warning C4101: 'i': unreferenced local variable
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14126): warning C4101: 'key': unreferenced local variable
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14135): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14201): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14225): warning C4101: 'value': unreferenced local variable
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14226): warning C4101: 'i': unreferenced local variable
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14225): warning C4101: 'key': unreferenced local variable
 c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): warning C4458: declaration of 'startTime' hides class member
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(42): note: see declaration of 'idInterpolate<float>::startTime'
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): note: while compiling class template member function 'void idInterpolate<float>::Init(const float,const float,const type &,const type &)'
@@ -102,6 +104,11 @@ c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(10
               type=idVec3
           ]
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(2265): note: see reference to class template instantiation 'idInterpolate<idVec3>' being compiled
+  WeaponGrenadeLauncher.cpp
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon\weapongrenadelauncher.cpp(23): warning C4305: 'initializing': truncation from 'double' to 'float'
+  WeaponHyperblaster.cpp
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\weapon\weaponhyperblaster.cpp(32): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (../Win32/Debug\) contains files shared from another project (Game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\rlohi\Documents\IT266\IT266-003\Game-Mod-Q4\../Win32/Debug\Game.dll) does not match the Linker's OutputFile property value (C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Debug\Gamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(Game) does not match the Linker's OutputFile property value (Gamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).

@@ -18,7 +18,17 @@ public:
 #ifdef _XENON
 	virtual bool		AllowAutoAim			( void ) const { return false; }
 #endif
-
+protected:
+	idPlayer				*player = gameLocal.GetLocalPlayer();
+	float					damage = 0.1;
+	float					damageUpgrade;
+	int						fireRateUpgrade;
+	float					spreadUpgrade;
+	int						projCountUpgrade;
+	float					damageAfterUpgrade;
+	int						fireRateAfterUpgrade;
+	float					spreadAfterupgrade;
+	int						projCountAfterUpgrade;
 private:
 
 	stateResult_t		State_Idle		( const stateParms_t& parms );
@@ -144,8 +154,16 @@ stateResult_t rvWeaponGrenadeLauncher::State_Fire ( const stateParms_t& parms ) 
 	};	
 	switch ( parms.stage ) {
 		case STAGE_INIT:
-			nextAttackTime = gameLocal.time + (fireRate * owner->PowerUpModifier ( PMOD_FIRERATE ));
-			Attack ( false, 1, spread, 0, 1.0f );
+			damageUpgrade = player->inventory.GL_UPGRADE_DAMAGE;
+			damageAfterUpgrade = ((damage)+damageUpgrade);
+			fireRateUpgrade = player->inventory.GL_UPGRADE_FIRE_RATE;
+			fireRateAfterUpgrade = ((1000) - fireRateUpgrade);
+			spreadUpgrade = player->inventory.GL_UPGRADE_SPREAD;
+			spreadAfterupgrade = ((spread)-spreadUpgrade);
+			projCountUpgrade = player->inventory.GL_UPGRADE_PROJ_COUNT;
+			projCountAfterUpgrade = ((1) + projCountUpgrade);
+			nextAttackTime = gameLocal.time + (fireRateAfterUpgrade);
+			Attack ( false, projCountAfterUpgrade, spreadAfterupgrade, 0, damageAfterUpgrade );
 			PlayAnim ( ANIMCHANNEL_ALL, GetFireAnim(), 0 );	
 			return SRESULT_STAGE ( STAGE_WAIT );
 	
