@@ -1,0 +1,6 @@
+﻿  Simd.cpp
+TextCompiler.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+rvMemSys.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+rvHeapArena.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+rvHeap.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  idlib.vcxproj -> C:\Users\rlohi\Documents\IT266\IT266-003\Game-Mod-Q4\../Win32/Debug\idLib.lib
