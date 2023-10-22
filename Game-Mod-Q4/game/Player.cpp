@@ -257,6 +257,7 @@ void idInventory::Clear( void ) {
 	GL_UPGRADE_SPREAD = 0;
 	GL_UPGRADE_PROJ_COUNT = 0;
 	PLAYER_SPEED_UPGRADE = 0;
+	pm_speed.SetFloat(160);
 }
 
 void idInventory::doTheThing(int amountToAdd) {
@@ -14334,6 +14335,12 @@ void idPlayer::rewardDistributor(int numberRolled) {
 			grenadelauncherUpgradeRoll();
 			break;
 		case 12:
+			float newSpeed;
+			inventory.PLAYER_SPEED_UPGRADE += 100;
+			newSpeed = ((160) + inventory.PLAYER_SPEED_UPGRADE);
+			gameLocal.Printf("newSpeed Value: %f \n", newSpeed);
+			pm_speed.SetFloat(newSpeed);
+			gameLocal.Printf("pm_speed new value: %f", pm_speed.GetFloat());
 			break;
 		default:
 			break;
