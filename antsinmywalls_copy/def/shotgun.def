@@ -80,7 +80,7 @@ entityDef weapon_shotgun
 	"joint_world_flash"			"muzzle_flash"
 
 	"fireRate"				"0.8"
-	"spread"				"5"
+	"spread"				"10"
 	"hitscans"				"10"
 
 	"inv_weapon"				"weapon_shotgun"
@@ -157,7 +157,7 @@ entityDef weapon_shotgun_mp
 	// q3 style spread
 	"shotgunSpreadStyle"			"1"
 	"spread"				"875"
-	"hitscans"				"11"
+	"hitscans"				"10"
 	"editor_ignore"				"1"
 	"range"					"131072"
 	"fireRate"				"1.0"
@@ -327,7 +327,7 @@ entityDef hitscan_shotgun_pellet
 	"def_damage_flesh"			"damage_pellet"
 	// for multiplayer clients. we only sync the hitscan def
 	// must be the same as weapon_shotgun_mp
-	"hitscans"				"11"
+	"hitscans"				"10"
 }
 
 //--------------------------------------------------------------------------------------------------------------------

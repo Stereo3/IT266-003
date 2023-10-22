@@ -1,58 +1,68 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (../Win32/Release\) contains files shared from another project (idLib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  AFEntity.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\afentity.cpp(122): warning C4458: declaration of 'name' hides class member
+  Player.cpp
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(2771): warning C4458: declaration of 'skin' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(890): note: see declaration of 'idPlayer::skin'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(3513): warning C4458: declaration of 'hud' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(370): note: see declaration of 'idPlayer::hud'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(3514): warning C4458: declaration of 'mphud' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(371): note: see declaration of 'idPlayer::mphud'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(3515): warning C4458: declaration of 'cursor' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(951): note: see declaration of 'idPlayer::cursor'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(3677): warning C4458: declaration of 'cursor' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(951): note: see declaration of 'idPlayer::cursor'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(3988): warning C4458: declaration of 'weaponDef' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(367): note: see declaration of 'idPlayer::weaponDef'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(4306): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(4684): warning C4458: declaration of 'team' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(120): note: see declaration of 'idActor::team'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(4879): warning C4458: declaration of 'hud' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(370): note: see declaration of 'idPlayer::hud'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(4992): warning C4456: declaration of 'i' hides previous local declaration
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(4875): note: see declaration of 'i'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(5135): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(5348): warning C4458: declaration of 'name' hides class member
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(124): note: see declaration of 'idEntity::name'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\afentity.cpp(1354): warning C4458: declaration of 'name' hides class member
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(5365): warning C4458: declaration of 'name' hides class member
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(124): note: see declaration of 'idEntity::name'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\afentity.cpp(2292): warning C4458: declaration of 'steerAngle' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\afentity.h(370): note: see declaration of 'idAFEntity_Vehicle::steerAngle'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\afentity.cpp(2467): warning C4458: declaration of 'steerAngle' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\afentity.h(370): note: see declaration of 'idAFEntity_Vehicle::steerAngle'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\afentity.cpp(3103): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
-  Actor.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.cpp(1198): warning C4458: declaration of 'animator' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(783): note: see declaration of 'idAnimatedEntity::animator'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.cpp(2382): warning C4458: declaration of 'damageScale' hides class member
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(6743): warning C4456: declaration of 'end' hides previous local declaration
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(6689): note: see declaration of 'end'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(9727): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10019): warning C4458: declaration of 'damageScale' hides class member
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(277): note: see declaration of 'idActor::damageScale'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.cpp(3690): warning C4458: declaration of 'name' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(124): note: see declaration of 'idEntity::name'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.cpp(3756): warning C4458: declaration of 'damageScale' hides class member
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10019): warning C4458: declaration of 'health' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(137): note: see declaration of 'idEntity::health'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10119): warning C4458: declaration of 'damageScale' hides class member
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(277): note: see declaration of 'idActor::damageScale'
-  BrittleFracture.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\brittlefracture.cpp(331): warning C4458: declaration of 'renderEntity' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(526): note: see declaration of 'idEntity::renderEntity'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\brittlefracture.cpp(331): warning C4458: declaration of 'renderView' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(132): note: see declaration of 'idEntity::renderView'
-  Camera.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(23): warning C4458: declaration of 'endValue' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(45): note: see declaration of 'idInterpolate<float>::endValue'
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(23): note: while compiling class template member function 'void idInterpolate<float>::SetEndValue(const type &)'
-          with
-          [
-              type=float
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\camera.cpp(113): note: see reference to function template instantiation 'void idInterpolate<float>::SetEndValue(const type &)' being compiled
-          with
-          [
-              type=float
-          ]
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(22): warning C4458: declaration of 'startValue' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(44): note: see declaration of 'idInterpolate<float>::startValue'
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(22): note: while compiling class template member function 'void idInterpolate<float>::SetStartValue(const type &)'
-          with
-          [
-              type=float
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\camera.cpp(111): note: see reference to function template instantiation 'void idInterpolate<float>::SetStartValue(const type &)' being compiled
-          with
-          [
-              type=float
-          ]
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(21): warning C4458: declaration of 'duration' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(43): note: see declaration of 'idInterpolate<float>::duration'
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(21): note: while compiling class template member function 'void idInterpolate<float>::SetDuration(float)'
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\camera.cpp(107): note: see reference to function template instantiation 'void idInterpolate<float>::SetDuration(float)' being compiled
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10262): warning C4457: declaration of 'attacker' hides function parameter
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10118): note: see declaration of 'attacker'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10528): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10661): warning C4458: declaration of 'viewAxis' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(123): note: see declaration of 'idActor::viewAxis'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(11173): warning C4458: declaration of 'viewAxis' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(123): note: see declaration of 'idActor::viewAxis'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(11291): warning C4458: declaration of 'cursor' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(951): note: see declaration of 'idPlayer::cursor'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(11658): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(11711): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(12464): warning C4458: declaration of 'arena' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(991): note: see declaration of 'idPlayer::arena'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(12755): warning C4458: declaration of 'team' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(120): note: see declaration of 'idActor::team'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(13052): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(13075): warning C4458: declaration of 'types' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\gamesys\class.h(409): note: see declaration of 'idClass::types'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14307): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14311): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14340): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14344): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14373): warning C4305: '+=': truncation from 'double' to 'float'
 c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): warning C4458: declaration of 'startTime' hides class member
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(42): note: see declaration of 'idInterpolate<float>::startTime'
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): note: while compiling class template member function 'void idInterpolate<float>::Init(const float,const float,const type &,const type &)'
@@ -60,7 +70,7 @@ c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68
           [
               type=float
           ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\camera.cpp(73): note: see reference to function template instantiation 'void idInterpolate<float>::Init(const float,const float,const type &,const type &)' being compiled
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(1249): note: see reference to function template instantiation 'void idInterpolate<float>::Init(const float,const float,const type &,const type &)' being compiled
           with
           [
               type=float
@@ -86,321 +96,18 @@ c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(44): note: see declaration of 'idInterpolate<float>::startValue'
 c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): warning C4458: declaration of 'endValue' hides class member
   c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(45): note: see declaration of 'idInterpolate<float>::endValue'
-  Effect.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\effect.cpp(121): warning C4458: declaration of 'name' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(124): note: see declaration of 'idEntity::name'
-  Entity.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.cpp(1657): warning C4458: declaration of 'renderEntity' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(526): note: see declaration of 'idEntity::renderEntity'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.cpp(1657): warning C4458: declaration of 'renderView' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(132): note: see declaration of 'idEntity::renderView'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.cpp(4091): warning C4458: declaration of 'targets' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(135): note: see declaration of 'idEntity::targets'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.cpp(4118): warning C4456: declaration of 'token3' hides previous local declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.cpp(4078): note: see declaration of 'token3'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.cpp(4949): warning C4458: declaration of 'bindJoint' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(531): note: see declaration of 'idEntity::bindJoint'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.cpp(5622): warning C4458: declaration of 'name' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(124): note: see declaration of 'idEntity::name'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.cpp(6641): warning C4458: declaration of 'animator' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(783): note: see declaration of 'idAnimatedEntity::animator'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2261): warning C4458: declaration of 'order' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(1807): note: see declaration of 'idCurve_BSpline<type>::order'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(108): warning C4458: declaration of 'startTime' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(42): note: see declaration of 'idInterpolate<idVec3>::startTime'
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(108): note: while compiling class template member function 'type idInterpolate<type>::GetDeltaValue(float,float) const'
           with
           [
               type=idVec3
           ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2261): note: while compiling class template member function 'void idCurve_NonUniformBSpline<idVec3>::Basis(const int,const int,const float,float *) const'
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2186): note: see reference to function template instantiation 'void idCurve_NonUniformBSpline<idVec3>::Basis(const int,const int,const float,float *) const' being compiled
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2163): note: while compiling class template member function 'idCurve_NonUniformBSpline<idVec3>::idCurve_NonUniformBSpline(void)'
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.cpp(4633): note: see reference to function template instantiation 'idCurve_NonUniformBSpline<idVec3>::idCurve_NonUniformBSpline(void)' being compiled
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.cpp(4633): note: see reference to class template instantiation 'idCurve_NonUniformBSpline<idVec3>' being compiled
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2286): warning C4458: declaration of 'order' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(1807): note: see declaration of 'idCurve_BSpline<type>::order'
-          with
-          [
-              type=idVec3
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2286): note: while compiling class template member function 'void idCurve_NonUniformBSpline<idVec3>::BasisFirstDerivative(const int,const int,const float,float *) const'
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2215): note: see reference to function template instantiation 'void idCurve_NonUniformBSpline<idVec3>::BasisFirstDerivative(const int,const int,const float,float *) const' being compiled
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2306): warning C4458: declaration of 'order' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(1807): note: see declaration of 'idCurve_BSpline<type>::order'
-          with
-          [
-              type=idVec3
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2306): note: while compiling class template member function 'void idCurve_NonUniformBSpline<idVec3>::BasisSecondDerivative(const int,const int,const float,float *) const'
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2244): note: see reference to function template instantiation 'void idCurve_NonUniformBSpline<idVec3>::BasisSecondDerivative(const int,const int,const float,float *) const' being compiled
-  FreeView.cpp
-  AAS.cpp
-  AAS_Find.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\aas_find.cpp(58): warning C4458: declaration of 'PVSAreas' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\aas_find.h(33): note: see declaration of 'rvAASFindGoalForHide::PVSAreas'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\aas_find.cpp(152): warning C4458: declaration of 'PVSAreas' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\aas_find.h(83): note: see declaration of 'rvAASFindGoalForAttack::PVSAreas'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\aas_find.cpp(194): warning C4456: declaration of 'localPoint' hides previous local declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\aas_find.cpp(176): note: see declaration of 'localPoint'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\aas_find.cpp(195): warning C4456: declaration of 'bestZ' hides previous local declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\aas_find.cpp(177): note: see declaration of 'bestZ'
-  AAS_debug.cpp
-  AAS_pathing.cpp
-  AAS_routing.cpp
-  AAS_tactical.cpp
-  AI.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai.cpp(2696): warning C4456: declaration of 'shader' hides previous local declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai.cpp(2688): note: see declaration of 'shader'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai.cpp(2717): warning C4458: declaration of 'damageScale' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(277): note: see declaration of 'idActor::damageScale'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai.cpp(2844): warning C4458: declaration of 'damageScale' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(277): note: see declaration of 'idActor::damageScale'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai.cpp(3362): warning C4456: declaration of 'axis' hides previous local declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai.cpp(3149): note: see declaration of 'axis'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai.cpp(4600): warning C4456: declaration of 'tr' hides previous local declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai.cpp(4564): note: see declaration of 'tr'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai.cpp(5084): warning C4458: declaration of 'animPrefix' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(293): note: see declaration of 'idActor::animPrefix'
-  AI_Actions.cpp
-  AI_Announcements.cpp
-  AI_Debug.cpp
-  AI_Manager.cpp
-  AI_Medic.cpp
-  AI_Move.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai_move.cpp(923): warning C4458: declaration of 'tether' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai.h(868): note: see declaration of 'idAI::tether'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai_move.cpp(1750): warning C4456: declaration of 'end' hides previous local declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai_move.cpp(1725): note: see declaration of 'end'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai_move.cpp(3400): warning C4456: declaration of 'area' hides previous local declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai_move.cpp(3315): note: see declaration of 'area'
-  Generating Code...
-  Compiling...
-  AI_States.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai_states.cpp(792): warning C4458: declaration of 'head' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(309): note: see declaration of 'idActor::head'
-  AI_Tactical.cpp
-  AI_Util.cpp
-  AI_events.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\ai\ai_events.cpp(599): warning C4458: declaration of 'af' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\afentity.h(227): note: see declaration of 'idAFEntity_Base::af'
-  AI_pathing.cpp
-  Anim.cpp
-  Anim_Blend.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(121): warning C4458: declaration of 'modelDef' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(317): note: see declaration of 'idAnim::modelDef'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(299): warning C4458: declaration of 'modelDef' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(317): note: see declaration of 'idAnim::modelDef'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(824): warning C4458: declaration of 'flags' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(324): note: see declaration of 'idAnim::flags'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(1255): warning C4458: declaration of 'modelDef' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(480): note: see declaration of 'idAnimBlend::modelDef'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(1455): warning C4458: declaration of 'modelDef' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(480): note: see declaration of 'idAnimBlend::modelDef'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(1498): warning C4458: declaration of 'modelDef' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(480): note: see declaration of 'idAnimBlend::modelDef'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(1549): warning C4458: declaration of 'modelDef' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(480): note: see declaration of 'idAnimBlend::modelDef'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(4532): warning C4458: declaration of 'numJoints' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(726): note: see declaration of 'idAnimator::numJoints'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(4574): warning C4458: declaration of 'joints' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(727): note: see declaration of 'idAnimator::joints'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(4814): warning C4458: declaration of 'numJoints' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(726): note: see declaration of 'idAnimator::numJoints'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(5251): warning C4458: declaration of 'numJoints' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(726): note: see declaration of 'idAnimator::numJoints'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(5411): warning C4458: declaration of 'numJoints' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(726): note: see declaration of 'idAnimator::numJoints'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(5412): warning C4458: declaration of 'joints' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim.h(727): note: see declaration of 'idAnimator::joints'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(232): warning C4458: declaration of 'startTime' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(202): note: see declaration of 'idInterpolateAccelDecelLinear<idAngles>::startTime'
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(232): note: while compiling class template member function 'void idInterpolateAccelDecelLinear<idAngles>::Init(const float,const float,const float,const float,const type &,const type &)'
-          with
-          [
-              type=idAngles
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(3997): note: see reference to function template instantiation 'void idInterpolateAccelDecelLinear<idAngles>::Init(const float,const float,const float,const float,const type &,const type &)' being compiled
-          with
-          [
-              type=idAngles
-          ]
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(232): warning C4458: declaration of 'accelTime' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(203): note: see declaration of 'idInterpolateAccelDecelLinear<idAngles>::accelTime'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(232): warning C4458: declaration of 'decelTime' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(205): note: see declaration of 'idInterpolateAccelDecelLinear<idAngles>::decelTime'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(232): warning C4458: declaration of 'startValue' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(206): note: see declaration of 'idInterpolateAccelDecelLinear<idAngles>::startValue'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(232): warning C4458: declaration of 'endValue' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(207): note: see declaration of 'idInterpolateAccelDecelLinear<idAngles>::endValue'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(75): warning C4458: declaration of 'startTime' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(44): note: see declaration of 'idExtrapolate<type>::startTime'
-          with
-          [
-              type=idAngles
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(75): note: while compiling class template member function 'void idExtrapolate<type>::Init(const float,const float,const type &,const type &,const type &,const extrapolation_t)'
-          with
-          [
-              type=idAngles
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(253): note: see reference to function template instantiation 'void idExtrapolate<type>::Init(const float,const float,const type &,const type &,const type &,const extrapolation_t)' being compiled
-          with
-          [
-              type=idAngles
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(220): note: while compiling class template member function 'idInterpolateAccelDecelLinear<idAngles>::idInterpolateAccelDecelLinear(void)'
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_blend.cpp(3568): note: see reference to function template instantiation 'idInterpolateAccelDecelLinear<idAngles>::idInterpolateAccelDecelLinear(void)' being compiled
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(75): warning C4458: declaration of 'duration' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(45): note: see declaration of 'idExtrapolate<type>::duration'
-          with
-          [
-              type=idAngles
-          ]
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(75): warning C4458: declaration of 'startValue' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(46): note: see declaration of 'idExtrapolate<type>::startValue'
-          with
-          [
-              type=idAngles
-          ]
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(75): warning C4458: declaration of 'baseSpeed' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(47): note: see declaration of 'idExtrapolate<type>::baseSpeed'
-          with
-          [
-              type=idAngles
-          ]
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(75): warning C4458: declaration of 'speed' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(48): note: see declaration of 'idExtrapolate<type>::speed'
-          with
-          [
-              type=idAngles
-          ]
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(75): warning C4458: declaration of 'extrapolationType' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\extrapolate.h(43): note: see declaration of 'idExtrapolate<type>::extrapolationType'
-          with
-          [
-              type=idAngles
-          ]
-  Anim_Import.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_import.cpp(321): warning C4459: declaration of 'game' hides global declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\game.h(373): note: see declaration of 'game'
-  Anim_Testmodel.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_testmodel.cpp(380): warning C4456: declaration of 'axis' hides previous local declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_testmodel.cpp(248): note: see declaration of 'axis'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\anim\anim_testmodel.cpp(540): warning C4458: declaration of 'name' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(124): note: see declaration of 'idEntity::name'
-  ClientAFEntity.cpp
-  ClientEffect.cpp
-  ClientEntity.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\client\cliententity.cpp(362): warning C4458: declaration of 'physics' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\client\cliententity.h(76): note: see declaration of 'rvClientEntity::physics'
-  ClientModel.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\client\clientmodel.cpp(245): warning C4458: declaration of 'renderEntity' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\client\clientmodel.h(54): note: see declaration of 'rvClientModel::renderEntity'
-  ClientMoveable.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): warning C4458: declaration of 'startTime' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(42): note: see declaration of 'idInterpolate<float>::startTime'
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): note: while compiling class template member function 'void idInterpolate<float>::Init(const float,const float,const type &,const type &)'
-          with
-          [
-              type=float
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\client\clientmoveable.cpp(40): note: see reference to function template instantiation 'void idInterpolate<float>::Init(const float,const float,const type &,const type &)' being compiled
-          with
-          [
-              type=float
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(972): note: while compiling class template member function 'type idCurve_Spline<type>::ValueForIndex(const int) const'
-          with
-          [
-              type=idAngles
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2018): note: see reference to function template instantiation 'type idCurve_Spline<type>::ValueForIndex(const int) const' being compiled
-          with
-          [
-              type=idAngles
-          ]
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2003): note: while compiling class template member function 'type idCurve_UniformCubicBSpline<type>::GetCurrentValue(const float) const'
-          with
-          [
-              type=idAngles
-          ]
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): warning C4458: declaration of 'duration' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(43): note: see declaration of 'idInterpolate<float>::duration'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): warning C4458: declaration of 'startValue' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(44): note: see declaration of 'idInterpolate<float>::startValue'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): warning C4458: declaration of 'endValue' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(45): note: see declaration of 'idInterpolate<float>::endValue'
-  Class.cpp
-  DebugGraph.cpp
-  Event.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\gamesys\event.cpp(55): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\gamesys\event.cpp(97): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\gamesys\event.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\gamesys\event.cpp(121): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\gamesys\event.cpp(135): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\gamesys\event.cpp(409): warning C4458: declaration of 'time' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\gamesys\event.h(65): note: see declaration of 'idEvent::time'
-  Buying.cpp
-  CTF.cpp
-  Clip.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\clip.cpp(405): warning C4458: declaration of 'renderModelHandle' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\clip.h(107): note: see declaration of 'idClipModel::renderModelHandle'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\clip.cpp(749): warning C4458: declaration of 'renderModelHandle' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\clip.h(107): note: see declaration of 'idClipModel::renderModelHandle'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\clip.cpp(1102): warning C4456: declaration of 'bounds' hides previous local declaration
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\clip.cpp(1091): note: see declaration of 'bounds'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\clip.cpp(1779): warning C4458: declaration of 'numContacts' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\clip.h(349): note: see declaration of 'idClip::numContacts'
-  Generating Code...
-  Compiling...
-  Force.cpp
-  Force_Constant.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_constant.cpp(59): warning C4458: declaration of 'physics' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_constant.h(39): note: see declaration of 'idForce_Constant::physics'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_constant.cpp(59): warning C4458: declaration of 'id' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_constant.h(40): note: see declaration of 'idForce_Constant::id'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_constant.cpp(59): warning C4458: declaration of 'point' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_constant.h(41): note: see declaration of 'idForce_Constant::point'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_constant.cpp(70): warning C4458: declaration of 'force' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_constant.h(38): note: see declaration of 'idForce_Constant::force'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_constant.cpp(79): warning C4458: declaration of 'physics' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_constant.h(39): note: see declaration of 'idForce_Constant::physics'
-  Force_Drag.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_drag.cpp(37): warning C4458: declaration of 'damping' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_drag.h(38): note: see declaration of 'idForce_Drag::damping'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_drag.cpp(48): warning C4458: declaration of 'id' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_drag.h(42): note: see declaration of 'idForce_Drag::id'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_drag.cpp(48): warning C4458: declaration of 'p' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_drag.h(43): note: see declaration of 'idForce_Drag::p'
-  Force_Field.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_field.cpp(84): warning C4458: declaration of 'clipModel' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_field.h(71): note: see declaration of 'idForce_Field::clipModel'
-  Force_Spring.cpp
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.cpp(41): warning C4458: declaration of 'Kstretch' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.h(36): note: see declaration of 'idForce_Spring::Kstretch'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.cpp(41): warning C4458: declaration of 'Kcompress' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.h(37): note: see declaration of 'idForce_Spring::Kcompress'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.cpp(41): warning C4458: declaration of 'damping' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.h(38): note: see declaration of 'idForce_Spring::damping'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.cpp(41): warning C4458: declaration of 'restLength' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.h(39): note: see declaration of 'idForce_Spring::restLength'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.cpp(53): warning C4458: declaration of 'physics1' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.h(42): note: see declaration of 'idForce_Spring::physics1'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.cpp(53): warning C4458: declaration of 'id1' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.h(43): note: see declaration of 'idForce_Spring::id1'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.cpp(53): warning C4458: declaration of 'p1' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.h(44): note: see declaration of 'idForce_Spring::p1'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.cpp(53): warning C4458: declaration of 'physics2' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.h(45): note: see declaration of 'idForce_Spring::physics2'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.cpp(53): warning C4458: declaration of 'id2' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.h(46): note: see declaration of 'idForce_Spring::id2'
-c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.cpp(53): warning C4458: declaration of 'p2' hides class member
-  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\physics\force_spring.h(47): note: see declaration of 'idForce_Spring::p2'
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(2283): note: see reference to class template instantiation 'idInterpolate<idVec3>' being compiled
+  WeaponHyperblaster.cpp
   WeaponShotgun.cpp
   Generating Code...
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14297): warning C4701: potentially uninitialized local variable 'randNumber' used
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\rlohi\Documents\IT266\IT266-003\Game-Mod-Q4\../Win32/Release\Game.dll) does not match the Linker's OutputFile property value (C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\Gamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(Game) does not match the Linker's OutputFile property value (Gamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
      Creating library ../Win32/Release\Gamex86.lib and object ../Win32/Release\Gamex86.exp
