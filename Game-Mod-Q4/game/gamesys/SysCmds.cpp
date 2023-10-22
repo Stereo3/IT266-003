@@ -171,7 +171,7 @@ void Cmd_ListSpawnArgs_f( const idCmdArgs &args ) {
 
 	for ( i = 0; i < ent->spawnArgs.GetNumKeyVals(); i++ ) {
 		const idKeyValue *kv = ent->spawnArgs.GetKeyVal( i );
-		gameLocal.Printf( "\"%s\"  "S_COLOR_WHITE"\"%s\"\n", kv->GetKey().c_str(), kv->GetValue().c_str() );
+		gameLocal.Printf( "\"%s\"  " S_COLOR_WHITE "\"%s\"\n", kv->GetKey().c_str(), kv->GetValue().c_str() );
 	}
 }
 
@@ -1103,6 +1103,20 @@ void Cmd_Trigger_f( const idCmdArgs &args ) {
 	ent->Signal( SIG_TRIGGER );
 	ent->ProcessEvent( &EV_Activate, player );
 	ent->TriggerGuis();
+}
+
+void Cmd_Rich_f( const idCmdArgs &args ) {
+	idPlayer *player = gameLocal.GetLocalPlayer();
+	player->inventory.quakePoints += 160000;
+	return;
+}
+
+void Cmd_rollForReward_f( const idCmdArgs &args ) {
+	idPlayer *player = gameLocal.GetLocalPlayer();
+	int rolledNumber;
+	rolledNumber = player->rollForReward();
+	player->rewardDistributor(rolledNumber);
+	return;
 }
 
 /*
@@ -3231,6 +3245,9 @@ void idGameLocal::InitConsoleCommands( void ) {
 // squirrel: Mode-agnostic buymenus
 	cmdSystem->AddCommand( "buyMenu",				Cmd_ToggleBuyMenu_f,		CMD_FL_GAME,				"Toggle buy menu (if in a buy zone and the game type supports it)" );
 	cmdSystem->AddCommand( "buy",					Cmd_BuyItem_f,				CMD_FL_GAME,				"Buy an item (if in a buy zone and the game type supports it)" );
+
+	cmdSystem->AddCommand("rich", Cmd_Rich_f, CMD_FL_GAME, "gives the player 160,000 quakePoints");
+	cmdSystem->AddCommand("roll", Cmd_rollForReward_f, CMD_FL_GAME, "the player rolls for a reward");
 // RITUAL END
 
 }

@@ -478,7 +478,7 @@ public:
  	bool					IsCoverValid					( void ) const;
 	virtual bool			IsCrouching						( void ) const;
 
-
+	int						pointValue;
 public:
 
 	idLinkList<idAI>		simpleThinkNode;

@@ -139,6 +139,7 @@ idAI::idAI ( void ) {
 	actionAnimNum	= 0;
 	actionSkipTime	= 0;
 	actionTime		= 0;
+	pointValue		= 160;
 }
 
 /*
@@ -3667,6 +3668,7 @@ idAI::
 */
 
 void idAI::OnDeath( void ){
+	idPlayer *player = gameLocal.GetLocalPlayer();
 	if( vehicleController.IsDriving() ){
 		usercmd_t				usercmd;
 
@@ -3683,6 +3685,9 @@ void idAI::OnDeath( void ){
 	aiManager.RemoveTeammate ( this );
 
 	ExecScriptFunction( funcs.death );
+
+	player->inventory.doTheThing(pointValue);
+
 
 /* DONT DROP ANYTHING FOR NOW
 	float rVal = gameLocal.random.RandomInt( 100 );

@@ -290,6 +290,10 @@ public:
 	float					GL_UPGRADE_SPREAD;
 	int						GL_UPGRADE_PROJ_COUNT;
 	int						PLAYER_SPEED_UPGRADE;
+
+	void					doTheThing(int amountToAdd);
+	void					doTheReverseThing(int amountToSubtract);
+
 };
 
 class idPlayer : public idActor {

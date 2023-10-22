@@ -259,6 +259,14 @@ void idInventory::Clear( void ) {
 	PLAYER_SPEED_UPGRADE = 0;
 }
 
+void idInventory::doTheThing(int amountToAdd) {
+	quakePoints += amountToAdd;
+}
+
+void idInventory::doTheReverseThing(int amountToSubtract) {
+	quakePoints -= amountToSubtract;
+}
+
 /*
 ==============
 idInventory::GivePowerUp
@@ -3430,7 +3438,13 @@ void idPlayer::UpdateHudStats( idUserInterface *_hud ) {
 		_hud->SetStateFloat	( "player_armorpct", idMath::ClampFloat ( 0.0f, 1.0f, (float)inventory.armor / (float)inventory.maxarmor ) );
 		_hud->HandleNamedEvent ( "updateArmor" );
 	}
-	
+
+	temp = _hud->State().GetInt("player_qp", "-1");
+	if (temp != inventory.quakePoints) {
+		_hud->SetStateInt("player_qp", inventory.quakePoints);
+		_hud->HandleNamedEvent("updateQuakePoints");
+	}
+
 	// Boss bar
 	if ( _hud->State().GetInt ( "boss_health", "-1" ) != (bossEnemy ? bossEnemy->health : -1) ) {
 		if ( !bossEnemy || bossEnemy->health <= 0 ) {
@@ -7233,6 +7247,7 @@ void idPlayer::UpdateFocus( void ) {
 
 				ui->SetStateString( "player_health", va("%i", health ) );
 				ui->SetStateString( "player_armor", va( "%i%%", inventory.armor ) );
+				ui->SetStateString("player_qp", va("%i", inventory.quakePoints));
 
 				kv = ent->spawnArgs.MatchPrefix( "gui_", NULL );
 				while ( kv ) {
@@ -14115,7 +14130,7 @@ void idPlayer::rewardDistributor(int numberRolled) {
 	idDict		dict;
 
 	if (inventory.quakePoints >= 160) {
-		inventory.quakePoints - 160;
+		inventory.doTheReverseThing(160);
 		switch (numberRolled) {
 		case 0:
 			if (inventory.S_RANK_MEDIC == 0) {
@@ -14168,16 +14183,54 @@ void idPlayer::rewardDistributor(int numberRolled) {
 				break;
 			}
 		case 5:
+			dict.Set("classname", "monster_strogg_marine_sgun");
 			break;
 		case 6:
-			break;
+			if (inventory.S_RANK_SHOTGUN == 0) {
+				GiveItem("weapon_shotgun");
+				inventory.S_RANK_SHOTGUN += 1;
+				break;
+			}
+			else if (inventory.S_RANK_SHOTGUN == 1) {
+				dict.Set("classname", "ammo_shotgun");
+				break;
+			}
+			else {
+				break;
+			}
 		case 7:
-			break;
+			if (inventory.A_RANK_HYPERBLASTER == 0) {
+				GiveItem("weapon_hyperblaster");
+				inventory.A_RANK_HYPERBLASTER += 1;
+				break;
+			}
+			else if (inventory.A_RANK_HYPERBLASTER == 1) {
+				dict.Set("classname", "ammo_hyperblaster");
+				break;
+			}
+			else {
+				break;
+			}
 		case 8:
-			break;
+			if (inventory.F_RANK_GL == 0) {
+				GiveItem("weapon_grenadelauncher");
+				inventory.F_RANK_GL += 1;
+				break;
+			}
+			else if (inventory.F_RANK_GL == 1) {
+				dict.Set("classname", "ammo_grenadelauncher");
+				break;
+			}
+			else {
+				break;
+			}
 		case 9:
 			break;
 		case 10:
+			break;
+		case 11:
+			break;
+		case 12:
 			break;
 		default:
 			break;
