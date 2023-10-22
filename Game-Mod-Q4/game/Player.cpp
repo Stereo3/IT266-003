@@ -14338,9 +14338,9 @@ void idPlayer::rewardDistributor(int numberRolled) {
 			float newSpeed;
 			inventory.PLAYER_SPEED_UPGRADE += 100;
 			newSpeed = ((160) + inventory.PLAYER_SPEED_UPGRADE);
-			gameLocal.Printf("newSpeed Value: %f \n", newSpeed);
+			//gameLocal.Printf("newSpeed Value: %f \n", newSpeed);
 			pm_speed.SetFloat(newSpeed);
-			gameLocal.Printf("pm_speed new value: %f", pm_speed.GetFloat());
+			//gameLocal.Printf("pm_speed new value: %f", pm_speed.GetFloat());
 			break;
 		default:
 			break;
