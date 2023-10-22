@@ -1,0 +1,156 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (../Win32/Release\) contains files shared from another project (idLib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Player.cpp
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(2771): warning C4458: declaration of 'skin' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(890): note: see declaration of 'idPlayer::skin'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(3513): warning C4458: declaration of 'hud' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(370): note: see declaration of 'idPlayer::hud'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(3514): warning C4458: declaration of 'mphud' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(371): note: see declaration of 'idPlayer::mphud'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(3515): warning C4458: declaration of 'cursor' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(951): note: see declaration of 'idPlayer::cursor'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(3677): warning C4458: declaration of 'cursor' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(951): note: see declaration of 'idPlayer::cursor'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(3988): warning C4458: declaration of 'weaponDef' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(367): note: see declaration of 'idPlayer::weaponDef'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(4306): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(4684): warning C4458: declaration of 'team' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(120): note: see declaration of 'idActor::team'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(4879): warning C4458: declaration of 'hud' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(370): note: see declaration of 'idPlayer::hud'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(4992): warning C4456: declaration of 'i' hides previous local declaration
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(4875): note: see declaration of 'i'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(5135): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(5348): warning C4458: declaration of 'name' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(124): note: see declaration of 'idEntity::name'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(5365): warning C4458: declaration of 'name' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(124): note: see declaration of 'idEntity::name'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(6743): warning C4456: declaration of 'end' hides previous local declaration
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(6689): note: see declaration of 'end'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(9727): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10019): warning C4458: declaration of 'damageScale' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(277): note: see declaration of 'idActor::damageScale'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10019): warning C4458: declaration of 'health' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\entity.h(137): note: see declaration of 'idEntity::health'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10119): warning C4458: declaration of 'damageScale' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(277): note: see declaration of 'idActor::damageScale'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10262): warning C4457: declaration of 'attacker' hides function parameter
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10118): note: see declaration of 'attacker'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10528): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(10661): warning C4458: declaration of 'viewAxis' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(123): note: see declaration of 'idActor::viewAxis'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(11173): warning C4458: declaration of 'viewAxis' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(123): note: see declaration of 'idActor::viewAxis'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(11291): warning C4458: declaration of 'cursor' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(951): note: see declaration of 'idPlayer::cursor'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(11658): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(11711): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(12464): warning C4458: declaration of 'arena' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(991): note: see declaration of 'idPlayer::arena'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(12755): warning C4458: declaration of 'team' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\actor.h(120): note: see declaration of 'idActor::team'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(13052): warning C4458: declaration of 'weapon' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.h(364): note: see declaration of 'idPlayer::weapon'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(13075): warning C4458: declaration of 'types' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\gamesys\class.h(409): note: see declaration of 'idClass::types'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14307): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14311): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14340): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14344): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14373): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): warning C4458: declaration of 'startTime' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(42): note: see declaration of 'idInterpolate<float>::startTime'
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): note: while compiling class template member function 'void idInterpolate<float>::Init(const float,const float,const type &,const type &)'
+          with
+          [
+              type=float
+          ]
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(1249): note: see reference to function template instantiation 'void idInterpolate<float>::Init(const float,const float,const type &,const type &)' being compiled
+          with
+          [
+              type=float
+          ]
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(972): note: while compiling class template member function 'type idCurve_Spline<type>::ValueForIndex(const int) const'
+          with
+          [
+              type=idAngles
+          ]
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2018): note: see reference to function template instantiation 'type idCurve_Spline<type>::ValueForIndex(const int) const' being compiled
+          with
+          [
+              type=idAngles
+          ]
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\curve.h(2003): note: while compiling class template member function 'type idCurve_UniformCubicBSpline<type>::GetCurrentValue(const float) const'
+          with
+          [
+              type=idAngles
+          ]
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): warning C4458: declaration of 'duration' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(43): note: see declaration of 'idInterpolate<float>::duration'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): warning C4458: declaration of 'startValue' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(44): note: see declaration of 'idInterpolate<float>::startValue'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(68): warning C4458: declaration of 'endValue' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(45): note: see declaration of 'idInterpolate<float>::endValue'
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(108): warning C4458: declaration of 'startTime' hides class member
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(42): note: see declaration of 'idInterpolate<idVec3>::startTime'
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\idlib\math\interpolate.h(108): note: while compiling class template member function 'type idInterpolate<type>::GetDeltaValue(float,float) const'
+          with
+          [
+              type=idVec3
+          ]
+  c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(2283): note: see reference to class template instantiation 'idInterpolate<idVec3>' being compiled
+  WeaponHyperblaster.cpp
+  WeaponShotgun.cpp
+  Generating Code...
+c:\users\rlohi\documents\it266\it266-003\game-mod-q4\game\player.cpp(14297): warning C4701: potentially uninitialized local variable 'randNumber' used
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\rlohi\Documents\IT266\IT266-003\Game-Mod-Q4\../Win32/Release\Game.dll) does not match the Linker's OutputFile property value (C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\Gamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(Game) does not match the Linker's OutputFile property value (Gamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library ../Win32/Release\Gamex86.lib and object ../Win32/Release\Gamex86.exp
+idLib.lib(BitMsg.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(BitMsg.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Bounds.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Bounds.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Box.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Box.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Frustum.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Frustum.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Sphere.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Sphere.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(CmdArgs.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(CmdArgs.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(HashIndex.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(HashIndex.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Dict.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Dict.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(JointTransform.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(JointTransform.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Surface.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Surface.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Surface_Patch.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Surface_Patch.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(TraceModel.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(TraceModel.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Winding.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Winding.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Winding2D.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Winding2D.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(CRC32.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(CRC32.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(MD4.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(MD4.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(MD5.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(MD5.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Heap.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Heap.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Lexer.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Lexer.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(LexerFactory.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(LexerFactory.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Lib.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Lib.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(mapfile.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(mapfile.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Angles.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Angles.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Lcp.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Lcp.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Math.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Math.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Matrix.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Matrix.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Ode.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Ode.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Polynomial.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Polynomial.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Quat.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Quat.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Rotation.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Rotation.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Simd.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Simd.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Simd_3DNow.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Simd_3DNow.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Simd_generic.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Simd_generic.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Simd_MMX.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Simd_MMX.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Simd_SSE.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Simd_SSE.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Simd_SSE2.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Simd_SSE2.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Simd_SSE3.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Simd_SSE3.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Vector.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Vector.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Parser.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Parser.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Str.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Str.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Timer.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Timer.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+idLib.lib(Token.obj) : warning LNK4099: PDB 'idLib.pdb' was not found with 'idLib.lib(Token.obj)' or at 'C:\Users\rlohi\Documents\IT266\IT266-003\Win32\Release\idLib.pdb'; linking object as if no debug info
+  game.vcxproj -> C:\Users\rlohi\Documents\IT266\IT266-003\Game-Mod-Q4\../Win32/Release\Game.dll
